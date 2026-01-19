@@ -1,0 +1,20 @@
+
+/* styles.css */
+#contenedor {
+ background-color: white;
+ display: flex;
+ flex-direction: column; /* Para que los cuadros se apilen verticalmente */
+ align-items: flex-start; /* Alinea los cuadros al inicio del contenedor */
+ padding: 20px;
+}
+
+.cuadro {
+ background-color: #f5f5dc; /* Color crema */
+ box-shadow: 3px 3px 5px #ffe4e1; /* Sombra rosa pastel */
+ margin: 5px;
+ cursor: pointer; /* Cambia el cursor para indicar interactividad */
+}
+
+.cuadro:hover {
+ opacity: 0.8; /* Reduce la opacidad al pasar el ratón */
+}
